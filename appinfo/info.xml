@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
-<info>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
 	<id>documents</id>
 	<name>Documents</name>
-	<description>An ownCloud app to work with office documents</description>
-	<licence>AGPL</licence>
-	<version>0.14.0</version>
+	<summary>A 💀 deprecated 💀 Nextcloud app to work with office documents.</summary>
+	<description><![CDATA[A Nextcloud app to work with office documents.
+
+💀 This app is not maintained 💀 Please, please move to an actively developed app like for example Collabora Online, Onlyoffice or Ownpad.]]>
+	</description>
+	<version>0.16.0</version>
+	<licence>agpl</licence>
 	<author>Frank Karlitschek, Victor Dubiniuk</author>
-	<website>https://github.com/owncloud/documents</website>
-	<bugs>https://github.com/owncloud/documents/issues</bugs>
-	<repository type="git">http://github.com/owncloud/documents.git</repository>
-	<category>productivity</category>
 	<documentation>
-		<user>https://doc.owncloud.org/server/9.0/user_manual/documents.html</user>
-		<admin>https://doc.owncloud.org/server/9.1/admin_manual/configuration_files/collaborative_documents_configuration.html</admin>
-		<developer>https://github.com/owncloud/documents/blob/master/README.md</developer>
+		<developer>https://github.com/nextcloud/documents/blob/master/README.md</developer>
 	</documentation>
+	<category>office</category>
+	<website>https://github.com/nextcloud/documents</website>
+	<bugs>https://github.com/nextcloud/documents/issues</bugs>
+	<repository type="git">http://github.com/nextcloud/documents.git</repository>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/documents/stable11/img/screenshot.png</screenshot>
 	<dependencies>
-		<owncloud min-version="9.1" max-version="9.2" />
+		<nextcloud min-version="11" max-version="11" />
 	</dependencies>
-	<public>
-		<documents>public.php</documents>
-	</public>
-	<ocsid>168711</ocsid>
 </info>

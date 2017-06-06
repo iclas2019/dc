@@ -702,7 +702,7 @@ $(document).ready(function() {
 	
 	$('.add-document').on('click', '.add', documentsMain.onCreate);
 
-	OC.Upload._isReceivedSharedFile = function () {
+	OC.Uploader._isReceivedSharedFile = function () {
 		return false;
 	}
 
