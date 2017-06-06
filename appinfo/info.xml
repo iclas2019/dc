@@ -2,24 +2,21 @@
 <info>
 	<id>documents</id>
 	<name>Documents</name>
-	<description>An ownCloud app to work with office documents</description>
+	<description>A Nextcloud app to work with office documents</description>
 	<licence>AGPL</licence>
 	<version>0.14.0</version>
 	<author>Frank Karlitschek, Victor Dubiniuk</author>
-	<website>https://github.com/owncloud/documents</website>
-	<bugs>https://github.com/owncloud/documents/issues</bugs>
-	<repository type="git">http://github.com/owncloud/documents.git</repository>
+	<website>https://github.com/nextcloud/documents</website>
+	<bugs>https://github.com/nextcloud/documents/issues</bugs>
+	<repository type="git">http://github.com/nextcloud/documents.git</repository>
 	<category>productivity</category>
 	<documentation>
-		<user>https://doc.owncloud.org/server/9.0/user_manual/documents.html</user>
-		<admin>https://doc.owncloud.org/server/9.1/admin_manual/configuration_files/collaborative_documents_configuration.html</admin>
-		<developer>https://github.com/owncloud/documents/blob/master/README.md</developer>
+		<developer>https://github.com/nextcloud/documents/blob/master/README.md</developer>
 	</documentation>
 	<dependencies>
-		<owncloud min-version="9.1" max-version="9.2" />
+		<nextcloud min-version="11" max-version="11" />
 	</dependencies>
 	<public>
 		<documents>public.php</documents>
 	</public>
-	<ocsid>168711</ocsid>
 </info>
