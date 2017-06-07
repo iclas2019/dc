@@ -31,7 +31,7 @@ class Converter {
 			. escapeshellarg($outdir) 
 			. ' --writer '. escapeshellarg($infile) 
 			. ' -env:UserInstallation=file://'
-			. escapeshellarg(\OC::$server->getTempManager()->getTempBaseDir() . '/owncloud-' . \OC_Util::getInstanceId().'/') . ' 2>&1'
+			. escapeshellarg(\OC::$server->getTempManager()->getTempBaseDir() . '/nextcloud-' . \OC_Util::getInstanceId().'/') . ' 2>&1'
 		;
 		file_put_contents($infile, $input);
  
@@ -91,7 +91,7 @@ class Converter {
 				. escapeshellarg($outdir) 
 				. ' --writer '. escapeshellarg($infile)
 				. ' -env:UserInstallation=file://'
-				. escapeshellarg(\OC::$server->getTempManager()->getTempBaseDir() . '/owncloud-' . \OC_Util::getInstanceId().'/')
+				. escapeshellarg(\OC::$server->getTempManager()->getTempBaseDir() . '/nextcloud-' . \OC_Util::getInstanceId().'/')
 		;
 		
 		file_put_contents($infile, $input);
