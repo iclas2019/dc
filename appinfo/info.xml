@@ -20,6 +20,6 @@
 	<repository type="git">http://github.com/nextcloud/documents.git</repository>
 	<screenshot>https://raw.githubusercontent.com/nextcloud/documents/stable11/img/screenshot.png</screenshot>
 	<dependencies>
-		<nextcloud min-version="11" max-version="11" />
+		<nextcloud min-version="12" max-version="12" />
 	</dependencies>
 </info>
