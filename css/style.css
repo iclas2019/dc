@@ -166,6 +166,7 @@
 	float: left;
 	background-position: 5px center;
 	padding-left: 24px;
+	display: none;
 }
 
 #mainContainer{
