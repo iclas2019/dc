@@ -1,11 +1,15 @@
 documents
 =========
 
-Documents app for ownCloud
+Documents app for Nextcloud
 
-An ownCloud app to work with office documents alone and/or collaboratively.
+A Nextcloud app to work with office documents alone and/or collaboratively. It can open ODF documents and supports the basic features around text markup and inserting images. Tables can be displayed and edited but not created. Most other features are not supported. As the Documents app does not import documents to an internal representation and export them upon saving, editing will rarely damage documents, even if it can't display or handle elements.
 
-[![Build Status](https://travis-ci.org/owncloud/documents.svg?branch=master)](https://travis-ci.org/owncloud/documents)
+
+Deprectated 💀
+-------------
+
+Sadly, WebODF is no longer developed and the company behind it has closed up. We might continue to try to keep Documents compatible with Nextcloud releases. But, as browsers change and office document formats evolve, the WebODF engine itself is  expected to start exhibiting more and more issues over time and it will cease to function at some point. Unless a significant time effort can be invested in WebODF, there is not much that can be done about this.
 
 ### Known issues ###
 **Problem**: Editor doesn't open. Spinner spins for ages.  
